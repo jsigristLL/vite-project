@@ -125,7 +125,7 @@
             lack of built-in functions.
          </p>
         <div id="home-button">Home</div>
-    `,document.querySelectorAll(`#home-button`).forEach(e=>{e.addEventListener(`click`,e=>{i()})})}function n(){document.querySelector(`#app`).innerHTML=`
+    `,document.querySelectorAll(`#home-button`).forEach(e=>{e.addEventListener(`click`,e=>{i(),window.scrollTo(0,0)})})}function n(){document.querySelector(`#app`).innerHTML=`
         <h1>JavaScript</h1>
         <h3>What Day of the Week?</h3>
         <div id="home-button">Home</div>
@@ -333,7 +333,7 @@
             juggle some complex arithmetic, and use Date objects.
         </p>
         <div id="home-button">Home</div>
-    `,document.querySelectorAll(`#home-button`).forEach(e=>{e.addEventListener(`click`,e=>{i()})})}function r(){document.querySelector(`#app`).innerHTML=`
+    `,document.querySelectorAll(`#home-button`).forEach(e=>{e.addEventListener(`click`,e=>{i(),window.scrollTo(0,0)})})}function r(){document.querySelector(`#app`).innerHTML=`
         <h1>Python</h1>
         <h3>Conway's Game of Life</h3>
         <div id="home-button">Home</div>
@@ -1331,13 +1331,13 @@
             drawing to the screen, Pygame in general, and loading and using images and audio. 
         </p>
         <div id="home-button">Home</div>
-    `,document.querySelectorAll(`#home-button`).forEach(e=>{e.addEventListener(`click`,e=>{i()})})}function i(){document.querySelector(`#app`).innerHTML=`
+    `,document.querySelectorAll(`#home-button`).forEach(e=>{e.addEventListener(`click`,e=>{i(),window.scrollTo(0,0)})})}function i(){document.querySelector(`#app`).innerHTML=`
         <h1>Project Sampler</h1>
         <h3>Select a language:</h3>
         <div id="card-container">
             <div class="card" id="python-card">
                 <p class="card-title">Python</p>
-                <p class="card-description">Some brief Python project description</p>
+                <p class="card-description">Conway's Game of Life</p>
             </div>
             <div class="card" id="js-card">
                 <p class="card-title">JavaScript</p>
